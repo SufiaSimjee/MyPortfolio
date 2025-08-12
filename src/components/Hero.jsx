@@ -156,7 +156,7 @@ I am a passionate computing student with a keen interest in full-stack developme
           <Button
             variant="outlined"
             color="secondary"
-            href="/SufiaSimjeeCV.pdf"
+            href="/Sufia_Yusoof_Simjee_CV.pdf"
             download
             startIcon={<DownloadIcon />}
             sx={{

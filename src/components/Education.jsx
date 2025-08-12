@@ -31,7 +31,7 @@ const educationData = [
     period: "Jun 2019 - 2020 ",
   },
   {
-    diploma: "DIPLOMAIN PROGRAMMING (Endorsed), NCC Education",
+    diploma: "Diploma in Programming (Endorsed), NCC Education",
     subject: "Computer System, Database Management System , Data Structure and Algorithms , Java and C# Programming ,Web Design and Development Fundamentals",
     desc: "Achieved Distinction in all modules of the NCC Education Endorsed Diploma in Programming, covering Computer Systems, Database Management System, Data Structures and Algorithms, Java Programming, C# Programming, and Web Design & Development Fundamentals",
     college: "KBTC College",
@@ -40,7 +40,7 @@ const educationData = [
     period: "Jan 2021 – Oct 2021",
   },
   {
-    diploma: "LEVEL 4 DIPLOMAIN IN COMPUTING, NCC Education",
+    diploma: "LEVEL 4 Diploma in Computing, NCC Education",
     subject: "Computer System, Computer Networks, Databases, Designing and Developing Object-Oriented Computer Programs, Designing and Developing Website , Office Solutions Development , Skills for Computing , Software Development Technique",
     desc: "Awarded Distinction in every unit of the NCC Education Level 4 Diploma in Computing.",
     college: "KMD College",
@@ -49,7 +49,7 @@ const educationData = [
     period: "Jan 2023 – Nov 2023",
   },
   {
-    diploma: "LEVEL 5 DIPLOMAIN IN COMPUTING, NCC Education" ,
+    diploma: "Level 5 Diploma in Computing, NCC Education" ,
     subject: "Agile Development , Computing Project, Database Design and Development, Dynamic Websites, Information Systems Analysis, Network Security and Cryptography",
     desc: "Awarded Distinction in core modules such as Computing Project, Database Design and Development,Dynamic Websites, Information Systems Analysis, and Network Security and Cryptography.",
     college: "KMD College",

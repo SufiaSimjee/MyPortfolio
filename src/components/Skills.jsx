@@ -2,16 +2,17 @@ import { Box, Typography, LinearProgress, Divider } from "@mui/material";
 
 const skills = [
   { name: "IT Fundamentals", level: 100 },
-  { name: "Networking", level: 80 },
+  { name: "Networking", level: 75 },
   { name: "Microsoft Office", level: 80 },
-  { name: "UI/UX Design", level: 60 },
-  { name: "MYSQL", level: 80 },
-  { name: "MongoDB", level: 80 },
-  { name: "Javascript", level: 80 },
-  { name: "PHP", level: 70 },
-  { name: "C#", level: 60 },
-  { name: "React Framework", level: 80 },
-  { name: "Nodejs Framework", level: 60 }
+  { name: "UI/UX Design", level: 70 },
+  { name: "DevOps (GitHub, Docker & CI/CD)", level: 50 },
+  { name: "MYSQL", level: 75 },
+  { name: "MongoDB", level: 75 },
+  { name: "HTML , CSS & Javascript", level: 80 },
+  { name: "PHP", level: 65 },
+  { name: "C#", level: 65 },
+  { name: "React Framework", level: 75 },
+  { name: "Nodejs Framework", level: 70 }
 ];
 
 const Skills = () => (

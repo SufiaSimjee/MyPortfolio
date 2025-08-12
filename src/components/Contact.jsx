@@ -3,6 +3,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedlnIcon from "@mui/icons-material/LinkedIn";
 
 const Contact = () => {
   return (
@@ -87,6 +88,19 @@ const Contact = () => {
           <GitHubIcon color="primary" />
           <Typography variant="body1" color="text.primary">
             GitHub
+          </Typography>
+        </Link>
+
+          <Link
+          href="https://www.linkedin.com/in/ sufia-simjee-81129537a"
+          target="_blank"
+          rel="noopener noreferrer"
+          color="inherit"
+          sx={{ display: "flex", alignItems: "center", gap: 1 }}
+        >
+          <LinkedlnIcon color="primary" />
+          <Typography variant="body1" color="text.primary">
+            Linkedin
           </Typography>
         </Link>
       </Stack>
