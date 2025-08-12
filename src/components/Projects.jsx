@@ -15,11 +15,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import university from "../assets/video/University.webm"
-import home from "../assets/personalprojects/HomeAppliance.png"
-import carpark from "../assets/personalprojects/Screenshot 2025-08-12 115402.png"
-import camp from "../assets/personalprojects/camping.png"
-import social from "../assets/personalprojects/socialmedia.png"
+import university from "../assets/video/University.webm";
+import home from "../assets/personalprojects/HomeAppliance.png";
+import carpark from "../assets/personalprojects/Screenshot 2025-08-12 115402.png";
+import camp from "../assets/personalprojects/camping.png";
+import social from "../assets/personalprojects/socialmedia.png";
 
 const projectsData = [
   {
@@ -29,7 +29,7 @@ const projectsData = [
     tech: ["React", "Node.js", "MongoDB"],
     github: "https://github.com/SufiaSimjee/University",
     liveDemo: "https://university-idea-demo.example.com",
-    projectVideo: university, 
+    projectVideo: university,
     projectImage: "https://mui.com/static/images/cards/paella.jpg",
     period: "Jan 2025 – May 2025",
   },
@@ -47,7 +47,8 @@ const projectsData = [
     description:
       "Completed an academic project involving the design and implementation of a Microsoft Access database alongside Excel tools to support membership and payment automation for a car parking business scenario. Created validated input forms and developed macros to facilitate efficient membership renewal processes and comprehensive reporting.",
     tech: ["Microsoft Access", "Excel"],
-    github: "https://github.com/SufiaSimjee/Car-Park-Membership-Payment-Management-System",
+    github:
+      "https://github.com/SufiaSimjee/Car-Park-Membership-Payment-Management-System",
     projectImage: carpark,
     period: "Jan 2023 – May 2023",
   },
@@ -98,9 +99,19 @@ const Projects = () => {
         My Projects
       </Typography>
 
- <Typography variant="body1"      sx={{ maxWidth: 600, mx: "auto", color: "#444", lineHeight: 1.6 }} mb={6}  textAlign="center">
-  Throughout my tech journey, I have completed various projects as part of my academic experience and to fulfill assessment requirements. These projects have enabled me to develop my coding skills and apply the knowledge I have gained during my studies to real-world scenarios. I am continuously striving to undertake more projects to further enhance my skill level.
-</Typography>
+      <Typography
+        variant="body1"
+        sx={{ maxWidth: 600, mx: "auto", color: "#444", lineHeight: 1.6 }}
+        mb={6}
+        textAlign="center"
+      >
+        Throughout my tech journey, I have completed various projects as part of
+        my academic experience and to fulfill assessment requirements. These
+        projects have enabled me to develop my coding skills and apply the
+        knowledge I have gained during my studies to real-world scenarios. I am
+        continuously striving to undertake more projects to further enhance my
+        skill level.
+      </Typography>
 
       <Box
         sx={{
@@ -112,7 +123,15 @@ const Projects = () => {
         <Slider {...settings}>
           {projectsData.map(
             (
-              { title, description, tech, github, projectImage, period, projectVideo },
+              {
+                title,
+                description,
+                tech,
+                github,
+                projectImage,
+                period,
+                projectVideo,
+              },
               idx
             ) => (
               <Card
@@ -151,17 +170,22 @@ const Projects = () => {
                 )}
 
                 {/* Render image only if no video OR project is NOT university */}
-                {(!projectVideo || title !== "University Idea Management System") &&
+                {(!projectVideo ||
+                  title !== "University Idea Management System") &&
                   projectImage && (
                     <CardMedia
                       component="img"
-                      height="250"
                       image={projectImage}
                       alt={`${title} Project Image`}
                       sx={{
                         borderTopLeftRadius: !projectVideo ? 12 : 0,
                         borderTopRightRadius: !projectVideo ? 12 : 0,
                         mb: 1,
+                        width: "100%", 
+                        height: {
+                          xs: "auto", 
+                          sm: "auto", 
+                        },
                         objectFit: "cover",
                       }}
                     />
