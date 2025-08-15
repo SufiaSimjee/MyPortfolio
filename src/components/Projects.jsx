@@ -25,7 +25,7 @@ const projectsData = [
   {
     title: "University Idea Management System",
     description:
-      "Collaborated as a full-stack developer to design and implement a web-based Idea Management System with role-based access controls, anonymous idea submissions, voting, and commenting.",
+      "I collaborated as a full-stack developer to design and implement a web-based Idea Management System with role-based access controls, anonymous idea submissions, voting, and commenting.",
     tech: ["React", "Node.js", "MongoDB"],
     github: "https://github.com/SufiaSimjee/University",
     liveDemo: "https://university-idea-demo.example.com",
@@ -36,8 +36,8 @@ const projectsData = [
   {
     title: "Home Appliance Management System",
     description:
-      "Completed an academic project to develop a C# home appliance rental application featuring user authentication, shopping cart, order processing, search capabilities, and administrative functions. Employed object-oriented programming principles, created a comprehensive class diagram, and performed extensive testing to ensure reliability and effective error handling.",
-    tech: ["C#", "MYSQL"],
+      "I completed an academic project to develop a C# home appliance rental application featuring user authentication, shopping cart, order processing, search capabilities, and administrative functions. I employed object-oriented programming principles, created a comprehensive class diagram, and performed extensive functional testing to ensure reliability and effective error handling.",
+    tech: [".Net (C#)", "MYSQL", "Winforms"],
     github: "https://github.com/SufiaSimjee/HomeApplianceManagementSystem",
     projectImage: home,
     period: "Jan 2023 – May 2023",
@@ -45,8 +45,8 @@ const projectsData = [
   {
     title: "Car Park Membership & Payment Management System",
     description:
-      "Completed an academic project involving the design and implementation of a Microsoft Access database alongside Excel tools to support membership and payment automation for a car parking business scenario. Created validated input forms and developed macros to facilitate efficient membership renewal processes and comprehensive reporting.",
-    tech: ["Microsoft Access", "Excel"],
+      "I completed an academic project involving the design and implementation of a Microsoft Access database alongside Excel tools to support membership and payment automation for a car parking business scenario. I created input forms and developed macros to facilitate efficient membership renewal processes and comprehensive reporting.",
+    tech: ["Microsoft Access", "Excel", "VBA"],
     github:
       "https://github.com/SufiaSimjee/Car-Park-Membership-Payment-Management-System",
     projectImage: carpark,
@@ -55,7 +55,7 @@ const projectsData = [
   {
     title: "Camping Website",
     description:
-      "Developed a responsive camping website employing HTML, CSS, and JavaScript to create an intuitive user experience and streamline reservation management.",
+      "I developed a responsive camping website employing HTML, CSS, and JavaScript to create an intuitive user experience and streamline reservation management.",
     tech: ["HTML", "CSS"],
     github: "https://github.com/SufiaSimjee/Camping-website",
     projectImage: camp,
@@ -64,7 +64,7 @@ const projectsData = [
   {
     title: "Social Media Campaign Website",
     description:
-      "Developed a Social Media Campaign website using PHP and vanilla JavaScript. Focused on promoting safe practices on social media platforms.",
+      "I developed a Social Media Campaign website using PHP and vanilla JavaScript. The website was about promoting safe practices on social media platforms.",
     tech: ["HTML", "CSS", "Javascript", "PHP", "MYSQL"],
     github: "https://github.com/SufiaSimjee/Social-Media-Campaign-Website",
     projectImage: social,

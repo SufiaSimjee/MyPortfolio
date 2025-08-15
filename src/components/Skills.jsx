@@ -4,17 +4,18 @@ const skills = [
   { name: "IT Fundamentals", level: 100 },
   { name: "Networking", level: 75 },
   { name: "Microsoft Office", level: 80 },
-  { name: "UI/UX Design", level: 70 },
-  { name: "Prototyping (Figma & Axure RP)", level: 60 },
+  { name: "UI/UX Design", level: 65 },
+  { name: "Cloud Computing (Render, Vercel & AWS)", level: 45 },
+  { name: "Prototyping (Figma & Axure RP)", level: 55 },
   { name: "DevOps (GitHub, Docker & CI/CD)", level: 50 },
   { name: "Database (MySql, Firebase & MongoDB)", level: 75 },
   { name: "HTML , CSS & Javascript", level: 80 },
-    { name: "UI Library (Bootstrap, Tailwind & Material UI)", level: 70 },
+  { name: "UI Library (Bootstrap, Tailwind & Material UI)", level: 70 },
   { name: "PHP (Laravel)", level: 60 },
   { name: "Object-Oriented Programming (C#, C++ & Java)", level: 65 },
   { name: "React Framework", level: 75 },
   { name: "Nodejs Framework", level: 70 },
-    { name: "Cloud Computing (Render, Vercel & AWS)", level: 75 }
+
 ];
 
 const Skills = () => (
