@@ -5,16 +5,16 @@ const skills = [
   { name: "Networking", level: 75 },
   { name: "Microsoft Office", level: 80 },
   { name: "UI/UX Design", level: 70 },
-  { name: "Figma & Azure", level: 60 },
-  { name: "UI Library (Bootstrap, Tailwind & Material UI)", level: 70 },
+  { name: "Prototyping (Figma & Axure RP)", level: 60 },
   { name: "DevOps (GitHub, Docker & CI/CD)", level: 50 },
-  { name: "MYSQL", level: 75 },
-  { name: "MongoDB", level: 75 },
+  { name: "Database (MySql, Firebase & MongoDB)", level: 75 },
   { name: "HTML , CSS & Javascript", level: 80 },
-  { name: "PHP", level: 65 },
-  { name: "C#", level: 65 },
+    { name: "UI Library (Bootstrap, Tailwind & Material UI)", level: 70 },
+  { name: "PHP (Laravel)", level: 60 },
+  { name: "Object-Oriented Programming (C#, C++ & Java)", level: 65 },
   { name: "React Framework", level: 75 },
-  { name: "Nodejs Framework", level: 70 }
+  { name: "Nodejs Framework", level: 70 },
+    { name: "Cloud Computing (Render, Vercel & AWS)", level: 75 }
 ];
 
 const Skills = () => (
