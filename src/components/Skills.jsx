@@ -5,6 +5,8 @@ const skills = [
   { name: "Networking", level: 75 },
   { name: "Microsoft Office", level: 80 },
   { name: "UI/UX Design", level: 70 },
+  { name: "Figma & Azure", level: 60 },
+  { name: "UI Library (Bootstrap, Tailwind & Material UI)", level: 70 },
   { name: "DevOps (GitHub, Docker & CI/CD)", level: 50 },
   { name: "MYSQL", level: 75 },
   { name: "MongoDB", level: 75 },
